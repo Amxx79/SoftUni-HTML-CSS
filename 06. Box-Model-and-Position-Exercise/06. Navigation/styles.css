@@ -1,0 +1,25 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header .site-title,
+header nav {
+    display: inline-block;
+} 
+
+header nav li {
+    display: inline;
+    text-decoration: none;
+}
+
+header nav a {
+    color: rgb(45, 17, 17);
+    text-decoration: none;
+    padding: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+header {
+    border-bottom: 3px solid rgb(65, 26, 26);
+}
