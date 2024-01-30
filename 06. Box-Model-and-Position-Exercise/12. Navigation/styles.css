@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+header .site-title,
+header nav {
+    display: inline-block;
+} 
+
+header:nth-child(1)
+{
+    border-bottom: 2px solid black;
+}black
+
+header nav a{
+    text-decoration: none;
+    display: inline;
+    text-decoration: none;
+    font-size: large;
+    color: green;
+
+}
+
+header nav li {
+    display: inline;
+    margin: 0.7em;
+    font-size: 14px;
+}
+
+header nav ul {
+    position: absolute;
+    top: 20px;
+    right: 90px;
+}
+
+main {
+    width: 870px;
+    margin-left: 3em;
+}
+
+main article blockquote {
+    display: inline-block;
+    max-width: 23em;
+}
+
+main article .align-left {
+    float: left;
+    margin: 0 1.5em 1.5em 0;
+    padding-right: 1em;
+    border-right: 1px solid rgba(107, 107, 107, 0.486);
+    opacity: 0.7;
+
+}
+main article .align-left p {
+    padding-right: 40px;
+}
+
+main article .align-right {
+    float: right;
+    margin: 0 1.5em 1.5em 0;
+
+    padding-left: -1em;
+    margin-top: 20px;
+}
+
+main article .align-right p {
+    margin-left: -50px;
+}
+
+header h1 {
+    margin-left: 1.5em;
+}
+
+.section1 > p {
+    margin-top: 230px;
+}
+
+.section1 > img {
+    float: right;
+    margin-right: 10px; /* Float the image to the right */
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 7px solid black;
+}
+
+article section {
+    display: inline-block;
+}
+
+.section2 > img {
+    float: left;
+    margin-right: 10px; /* Float the image to the right */
+    margin-left: 0px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 7px solid black;
+}
+
+
+.section2 {
+    display: inline-block;
+}
+
+.section2 p {
+    /* margin-left: 1.5em; */
+    margin-top: -5px;
+}
+
+aside {
+    /* float: right; */
+    position: absolute;
+    top: 90px;
+    right: 20px;
+}
+
+aside li {
+    color: green;
+    text-decoration: nones;
+}
+
+h3 {
+    font-size: 20px;
+}
