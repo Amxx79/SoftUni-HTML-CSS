@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8e7e7;
+}
+
+table {
+    background: #fff;
+    border-collapse: collapse;
+}
+
+table, 
+table th,
+table td {
+    border: 1px solid #ccc;
+}
+
+table th,
+table td {
+    padding: 0.5em 1em;
+}
+
+table thead th,
+table thead td {
+    background: #333;
+    color: #fff;
+}
+
+@media (max-width: 800px) {
+    table, tbody, tr, th, td {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+    
+    tbody tr {
+        border: 1px solid #000000;
+    }
+
+    tbody td {
+        display: flex;
+    }
+
+    tbody td:before {
+        display: inline-block;
+        content: attr(data-title);
+        font-weight: bold;
+        padding-right: 1em;
+        flex: 0 0 80px;
+    }
+}
