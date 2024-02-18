@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    padding: 2em;
+}
+
+.card {
+    width: 1060px;
+    height: 613px;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+div {
+    margin: 0 auto;
+    max-width: 1060px;
+    background-color: #85DCFF;
+}
+
+h1 {
+    font-size: 46px;
+    padding-top: 202px;
+    max-width: 395px;
+}
+
+p {
+    margin-top: 31px;
+    font-size: 14px;
+}
+
+p,
+h1,
+a {
+    max-width: 540px;
+    margin-left: 33px;
+}
+
+a {
+    margin-bottom: 200px;
+    padding: 17px 30px 18px 30px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #30272C;
+}
+
+a:nth-child(1) {
+    border: 1px solid #000000;
+    background-color: #42AA59;
+}
+
+a:nth-child(1):hover {
+    background-color: #000000;
+    color: #FFF;
+}
+
+
+a:nth-child(2) {
+    background-color: #FFFFFF;
+    margin-left: 14px;
+}
+
+img {
+    margin-top: 85px;
+    margin-right: 33px;
+    margin-bottom: 61px;
+    width: 360px;
+    height: 481px;
+    box-shadow: 2px 2px 0.5em 0.7px rgba(25, 42, 48, 1);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    gap: 93px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: start;
+    margin-left: 0;
+    margin-top: 32px;
+}
