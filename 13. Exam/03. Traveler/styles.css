@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav ul div {
+    display: flex;
+    list-style: none outside;
+}
+
+header nav ul li {
+    padding: 58px 60px 0px 0px;
+    font-family: 'Karla';
+    font-size: 18px;
+    color: white;
+}
+
+.header div {
+    display: flex;
+    flex-direction: column;
+}
+
+.header h2 {
+    font-family: 'Cormorant Infant';
+    font-size: 90px;
+    margin-top: 305px;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 870px;
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.60)), url(images/poster.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header .header {
+    align-items: center;
+}
+
+.header p {
+    margin-top: 172px;
+    margin-bottom: 180px;
+    font-family: 'Karla';
+    font-size: 18px;
+    color: white;
+}
+
+header nav img {
+    height: 63px;
+    width: 109px;
+}
+
+header nav ul a {
+    padding-left: 100px;
+    padding-top: 34px;
+}
+
+.customer,
+.your-mind {
+    background-color: #F8F0E9;
+}
+
+.header div,
+.find-guide,
+.your-mind-second,
+.support {
+    text-align: center;
+}
+
+.customer div h6 {
+    padding-top: 60px;
+    padding-bottom: 96px;
+    font-family: 'Karla';
+    font-size: 18px;
+    font-weight: normal;
+    color: #352B2A;
+}
+
+.customer {
+    display: flex;
+    justify-content: center;
+}
+
+.customer div p {
+    font-family: 'Cormorant Infant';
+    font-weight: bold;
+    line-height: 0.8;
+    max-width: 1100px;
+    font-size: 74px;
+    font-style: italic;
+    padding-bottom: 135px;
+}
+
+.support {
+    background-color: #E14747;
+}
+
+.support h3 {
+    font-size: 18px;
+    padding-top: 94px;
+    padding-bottom: 67px;
+}
+
+.support h3,
+.support p {
+    font-family: 'Karla';
+    color: #fff;
+}
+
+.support p {
+    font-size: 18px;
+    padding-bottom: 92px;
+}
+
+.your-mind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1350px;
+}
+
+.your-mind img {
+    margin-top: -20px;
+    width: 625px;
+    height: 468px;
+}
+
+.your-mind h2 {
+    font-family: 'Cormorant Infant';
+    font-size: 75px;
+}
+
+.your-mind-third {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.your-mind-third p {
+    font-family: 'Karla';
+    width: 625px;
+    font-size: 18px;
+    padding-top: 105px;
+}
+
+.your-mind-third a{
+    margin-top: 85px;
+    padding: 17px 23px 16px 23px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.your-mind-third a{
+    color: black;
+    text-decoration: none;
+}
+
+.your-mind-second {
+    margin-top: 100px;
+}
+
+.your-mind-second a{
+    padding: 17px 23px 16px 23px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+}
+
+.your-mind-second h2 {
+    margin-top: 105px;
+}
+
+.find-guide {
+    background-color: #E14747;
+    height: 623px;
+}
+
+.find-guide h4 {
+    font-family: 'Cormorant Infant';
+    font-size: 76px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 155px;
+    padding-bottom: 135px;
+
+}
+
+.find-guide p {
+    font-family: 'Karla';
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 85px;
+}
+
+.find-guide a {
+    margin-bottom: 200px;
+    padding: 20px 30px 20px 30px;
+    background-color: #FAD87A;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #352B2A;
+    height: 312px;
+    padding-left: 160px;
+    padding-top: 62px;
+}
+
+footer img {
+    width: 74px;
+    height: 42px;
+}
+
+footer p {
+    font-family: 'Karla';
+}
+
+footer p:nth-child(2) {
+    padding-top: 55px;
+    padding-bottom: 33px;
+
+    font-size: 18px;
+    color: #ddd;
+}
+
+footer p:nth-child(3) {
+    font-size: 16px;
+    /* color: #76655C; */
+}
+
+
+
+
+
+
